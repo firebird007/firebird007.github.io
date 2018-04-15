@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firebird.top/"/>
-  <updated>2018-04-15T07:53:15.940Z</updated>
+  <updated>2018-04-15T08:25:09.172Z</updated>
   <id>https://firebird.top/</id>
   
   <author>
@@ -21,16 +21,19 @@
     <link href="https://firebird.top/2018/04/15/hello-world/"/>
     <id>https://firebird.top/2018/04/15/hello-world/</id>
     <published>2018-04-14T16:29:04.000Z</published>
-    <updated>2018-04-15T07:53:15.940Z</updated>
+    <updated>2018-04-15T08:25:09.172Z</updated>
     
-    <content type="html"><![CDATA[<p>$$F__{\mu}$$</p><h2 id="1-Alerts"><a href="#1-Alerts" class="headerlink" title="1. Alerts"></a>1. Alerts</h2><div class="alert alert-warning"><i class="fa fa-bell  float-left"></i>  <p>Best check yo self, you’re not looking too good.</p></div><div class="alert alert-danger"><i class="fa fa-bug  float-left"></i>  <p>Change a few things up and try submitting again.</p></div><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div><div class="alert alert-info"><i class="fa fa-info  float-left"></i>  <p>This alert needs your attention, but it’s not super important.</p></div><h2 id="2-Label"><a href="#2-Label" class="headerlink" title="2. Label"></a>2. Label</h2><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="3-Text-Color"><a href="#3-Text-Color" class="headerlink" title="3. Text Color"></a>3. Text Color</h2><p class="text-muted"></p><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p></p><p class="text-primary"></p><p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p></p><p class="text-success"></p><p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p><p></p><p class="text-info"></p><p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p><p></p><p class="text-warning"></p><p>Etiam porta sem malesuada magna mollis euismod.</p><p></p><p class="text-danger"></p><p>Donec ullamcorper nulla non metus auctor fringilla.</p><p></p><h2 id="4-Buttons"><a href="#4-Buttons" class="headerlink" title="4. Buttons"></a>4. Buttons</h2><a class="btn btn-secondary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-primary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-success" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-warning" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-danger" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-info" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a>]]></content>
+    <content type="html"><![CDATA[<p><span>$$\begin{aligned}\dot{x} &amp; = \sigma(y-x) \\\dot{y} &amp; = \rho x - y - xz \\\dot{z} &amp; = -\beta z + xy\end{aligned}$$</span><!-- Has MathJax --></p><h2>1. Alerts</h2><p><div class="alert alert-warning"><i class="fa fa-bell  float-left"></i>  <p>Best check yo self, you're not looking too good.</p></div><div class="alert alert-danger"><i class="fa fa-bug  float-left"></i>  <p>Change a few things up and try submitting again.</p></div><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div><div class="alert alert-info"><i class="fa fa-info  float-left"></i>  <p>This alert needs your attention, but it's not super important.</p></div></p><h2>2. Label</h2><p><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span></p><h2>3. Text Color</h2><p>&lt;font color=#00ffff size=8&gt; test &lt;/font&gt;</p><p>&lt;font color=blue size=8&gt; test &lt;/font&gt;</p><p>&lt;font color=grey size=8&gt; test &lt;/font&gt;</p><p></p><p class="text-muted"></p><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p></p><p></p><h2>4. Buttons</h2><p><a class="btn btn-secondary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-primary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-success" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-warning" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-danger" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-info" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;$$F__{\mu}$$&lt;/p&gt;
-&lt;h2 id=&quot;1-Alerts&quot;&gt;&lt;a href=&quot;#1-Alerts&quot; class=&quot;headerlink&quot; title=&quot;1. Alerts&quot;&gt;&lt;/a&gt;1. Alerts&lt;/h2&gt;&lt;div class=&quot;alert alert-war
+        &lt;p&gt;&lt;span&gt;$$\begin{aligned}
+\dot{x} &amp;amp; = \sigma(y-x) \\
+\dot{y} &amp;amp; = \rho x - y - xz \\
+\dot{z} &amp;amp; = -\beta z + xy
+\end{aligned}$$&lt;/
       
     
     </summary>
