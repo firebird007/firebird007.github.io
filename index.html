@@ -142,8 +142,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2018-04-14 </div>
-			<div class="article-title"><a href="/2018/04/14/hello-world/" >hello-world</a></div>						
+			<div class="date"> 2018-04-15 </div>
+			<div class="article-title"><a href="/2018/04/15/hello-world/" >hello-world</a></div>						
 		</h3>
 	
 
@@ -152,11 +152,11 @@
   <div class="row">
 	
 	
-		<p>Simple inline $a = b + c$.</p>
+		<p>$F__{\mu}$</p>
 
 	
 	</div>
-  <a type="button" href="/2018/04/14/hello-world/#more" class="btn btn-default more">Read More</a>
+  <a type="button" href="/2018/04/15/hello-world/#more" class="btn btn-default more">Read More</a>
 </div>
 
            
@@ -205,7 +205,7 @@
                repo: "",
                client_id: "",
                client_secret: "",
-			   count: "5" ? "5" : 5,
+			   count: "4" ? "4" : 5,
 			   recent_comments_target: "#recent-comments"
 			});
 		</script>
@@ -224,7 +224,7 @@
   <ul class="entry list-unstyled">
     
       <li>
-        <a href="/2018/04/14/hello-world/" ><i class="fa fa-file-o"></i>hello-world</a>
+        <a href="/2018/04/15/hello-world/" ><i class="fa fa-file-o"></i>hello-world</a>
       </li>
     
   </ul>
@@ -317,7 +317,24 @@
   }
   window.addEventListener('DOMContentLoaded', Highlighting, false);
   window.addEventListener('load', Highlighting, false);
-  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 
 
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firebird.top/"/>
-  <updated>2018-04-14T14:53:59.925Z</updated>
+  <updated>2018-04-14T16:31:15.309Z</updated>
   <id>https://firebird.top/</id>
   
   <author>
@@ -18,18 +18,18 @@
   
   <entry>
     <title>hello-world</title>
-    <link href="https://firebird.top/2018/04/14/hello-world/"/>
-    <id>https://firebird.top/2018/04/14/hello-world/</id>
-    <published>2018-04-14T06:36:13.000Z</published>
-    <updated>2018-04-14T14:53:59.925Z</updated>
+    <link href="https://firebird.top/2018/04/15/hello-world/"/>
+    <id>https://firebird.top/2018/04/15/hello-world/</id>
+    <published>2018-04-14T16:29:04.000Z</published>
+    <updated>2018-04-14T16:31:15.309Z</updated>
     
-    <content type="html"><![CDATA[<p>Simple inline $a = b + c$.</p>]]></content>
+    <content type="html"><![CDATA[<p>$F__{\mu}$</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Simple inline $a = b + c$.&lt;/p&gt;
+        &lt;p&gt;$F__{\mu}$&lt;/p&gt;
 
       
     
