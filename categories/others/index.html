@@ -50,7 +50,6 @@
   
 
 
-  
 
 </head>
 
@@ -156,6 +155,10 @@
 \dot{y} &amp; = \rho x - y - xz \\
 \dot{z} &amp; = -\beta z + xy
 \end{aligned}$$</span><!-- Has MathJax -->
+<p>$$\frac{\partial u}{\partial t}<br>
+= h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>
+\frac{\partial^2 u}{\partial y^2} +<br>
+\frac{\partial^2 u}{\partial z^2}\right)$$</p>
 <h2 id="1-coding"><a class="header-anchor" href="#1-coding">¶</a>1. Coding</h2>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure>
 <h2 id="2-alerts"><a class="header-anchor" href="#2-alerts">¶</a>2. Alerts</h2>
@@ -242,6 +245,10 @@
 <div class="widget">
   <h4>Recent Posts</h4>
   <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/2018/04/15/test-passwd/" ><i class="fa fa-file-o"></i>test_passwd</a>
+      </li>
     
       <li>
         <a href="/2018/04/15/hello-world/" ><i class="fa fa-file-o"></i>hello-world</a>
@@ -340,7 +347,25 @@
   }
   window.addEventListener('DOMContentLoaded', Highlighting, false);
   window.addEventListener('load', Highlighting, false);
-  </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+  </script>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config("");
 </script>
@@ -358,8 +383,5 @@
 </script>
 <!-- End: Injected MathJax -->
 <!-- hexo-inject:end -->
-
-
-
 </body>
    </html>

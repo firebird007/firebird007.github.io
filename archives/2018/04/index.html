@@ -50,7 +50,6 @@
   
 
 
-  
 
 </head>
 
@@ -146,6 +145,15 @@
 		<li class="listing-item">
 		<span class="date_class"> 2018-04-15 </span> &raquo;
 		
+		   <span class="title"><a href="/2018/04/15/test-passwd/" >test_passwd</a></span>
+		
+		</li>			
+		
+		
+		
+		<li class="listing-item">
+		<span class="date_class"> 2018-04-15 </span> &raquo;
+		
 		   <span class="title"><a href="/2018/04/15/hello-world/" >hello-world</a></span>
 		
 		</li>			
@@ -188,6 +196,10 @@
 <div class="widget">
   <h4>Recent Posts</h4>
   <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/2018/04/15/test-passwd/" ><i class="fa fa-file-o"></i>test_passwd</a>
+      </li>
     
       <li>
         <a href="/2018/04/15/hello-world/" ><i class="fa fa-file-o"></i>hello-world</a>
@@ -286,7 +298,25 @@
   }
   window.addEventListener('DOMContentLoaded', Highlighting, false);
   window.addEventListener('load', Highlighting, false);
-  </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+  </script>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config("");
 </script>
@@ -304,8 +334,5 @@
 </script>
 <!-- End: Injected MathJax -->
 <!-- hexo-inject:end -->
-
-
-
 </body>
    </html>
