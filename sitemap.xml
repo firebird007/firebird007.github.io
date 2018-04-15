@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://firebird.top/2018/04/15/test1/</loc>
+    <loc>https://firebird.top/categories/others/index.html</loc>
     
-    <lastmod>2018-04-15T09:17:17.560Z</lastmod>
+    <lastmod>2018-04-15T13:36:11.560Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://firebird.top/2018/04/15/hello-world/</loc>
     
-    <lastmod>2018-04-15T08:43:16.032Z</lastmod>
+    <lastmod>2018-04-15T13:31:43.572Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://firebird.top/wiki/index.html</loc>
+    <loc>https://firebird.top/categories/teaching/index.html</loc>
     
-    <lastmod>2018-04-15T02:14:58.728Z</lastmod>
+    <lastmod>2018-04-15T11:45:59.720Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://firebird.top/categories/study/index.html</loc>
+    
+    <lastmod>2018-04-15T10:54:35.924Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://firebird.top/categories/programming/index.html</loc>
+    
+    <lastmod>2018-04-15T10:54:10.160Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://firebird.top/categories/research/index.html</loc>
+    
+    <lastmod>2018-04-15T10:52:28.536Z</lastmod>
     
   </url>
   
@@ -33,13 +54,6 @@
     <loc>https://firebird.top/tags/index.html</loc>
     
     <lastmod>2018-04-14T10:32:34.284Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://firebird.top/teaching/index.html</loc>
-    
-    <lastmod>2018-04-14T10:21:58.644Z</lastmod>
     
   </url>
   

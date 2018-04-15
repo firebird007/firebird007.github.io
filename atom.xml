@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firebird.top/"/>
-  <updated>2018-04-15T09:17:17.560Z</updated>
+  <updated>2018-04-15T13:31:43.572Z</updated>
   <id>https://firebird.top/</id>
   
   <author>
@@ -17,31 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test1</title>
-    <link href="https://firebird.top/2018/04/15/test1/"/>
-    <id>https://firebird.top/2018/04/15/test1/</id>
-    <published>2018-04-15T09:03:53.000Z</published>
-    <updated>2018-04-15T09:17:17.560Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="电工技术(上)" scheme="https://firebird.top/tags/%E7%94%B5%E5%B7%A5%E6%8A%80%E6%9C%AF-%E4%B8%8A/"/>
-    
-      <category term="2018春季学期" scheme="https://firebird.top/tags/2018%E6%98%A5%E5%AD%A3%E5%AD%A6%E6%9C%9F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hello-world</title>
     <link href="https://firebird.top/2018/04/15/hello-world/"/>
     <id>https://firebird.top/2018/04/15/hello-world/</id>
     <published>2018-04-14T16:29:04.000Z</published>
-    <updated>2018-04-15T08:43:16.032Z</updated>
+    <updated>2018-04-15T13:31:43.572Z</updated>
     
-    <content type="html"><![CDATA[<span>$$\begin{aligned}\dot{x} &amp; = \sigma(y-x) \\\dot{y} &amp; = \rho x - y - xz \\\dot{z} &amp; = -\beta z + xy\end{aligned}$$</span><!-- Has MathJax --><p>F_a</p><h2 id="1-alerts"><a class="header-anchor" href="#1-alerts">¶</a>1. Alerts</h2><div class="alert alert-warning"><i class="fa fa-bell  float-left"></i>  <p>Best check yo self, you’re not looking too good.</p></div><div class="alert alert-danger"><i class="fa fa-bug  float-left"></i>  <p>Change a few things up and try submitting again.</p></div><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div><div class="alert alert-info"><i class="fa fa-info  float-left"></i>  <p>This alert needs your attention, but it’s not super important.</p></div><h2 id="2-label"><a class="header-anchor" href="#2-label">¶</a>2. Label</h2><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="3-text-color"><a class="header-anchor" href="#3-text-color">¶</a>3. Text Color</h2><p><font color="#00ffff" size="8"> test </font></p><p><font color="blue" size="8"> test </font></p><p><font color="grey" size="8"> test </font></p><p class="text-muted"></p><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p></p><h2 id="4-buttons"><a class="header-anchor" href="#4-buttons">¶</a>4. Buttons</h2><a class="btn btn-secondary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-primary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-success" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-warning" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-danger" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-info" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a>]]></content>
+    <content type="html"><![CDATA[<span>$$\begin{aligned}\dot{x} &amp; = \sigma(y-x) \\\dot{y} &amp; = \rho x - y - xz \\\dot{z} &amp; = -\beta z + xy\end{aligned}$$</span><!-- Has MathJax --><h2 id="1-alerts"><a class="header-anchor" href="#1-alerts">¶</a>1. Alerts</h2><div class="alert alert-warning"><i class="fa fa-bell  float-left"></i>  <p>Best check yo self, you’re not looking too good.</p></div><div class="alert alert-danger"><i class="fa fa-bug  float-left"></i>  <p>Change a few things up and try submitting again.</p></div><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div><div class="alert alert-info"><i class="fa fa-info  float-left"></i>  <p>This alert needs your attention, but it’s not super important.</p></div><h2 id="2-label"><a class="header-anchor" href="#2-label">¶</a>2. Label</h2><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="3-text-color"><a class="header-anchor" href="#3-text-color">¶</a>3. Text Color</h2><p><font color="#00ffff" size="8"> test </font></p><p><font color="blue" size="8"> test </font></p><p><font color="grey" size="8"> test </font></p><p class="text-muted"></p><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p></p><h2 id="4-buttons"><a class="header-anchor" href="#4-buttons">¶</a>4. Buttons</h2><a class="btn btn-secondary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-primary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-success" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-warning" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-danger" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-info" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a>]]></content>
     
     <summary type="html">
     
@@ -55,6 +37,8 @@
       
     
     </summary>
+    
+      <category term="others" scheme="https://firebird.top/categories/others/"/>
     
     
   </entry>
