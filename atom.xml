@@ -38,23 +38,9 @@
       <category term="teaching" scheme="https://firebird.top/categories/teaching/"/>
     
     
-      <category term="matlab" scheme="https://firebird.top/tags/matlab/"/>
-    
       <category term="2018春-金材" scheme="https://firebird.top/tags/2018%E6%98%A5-%E9%87%91%E6%9D%90/"/>
     
-  </entry>
-  
-  <entry>
-    <title>test_passwd</title>
-    <link href="https://firebird.top/2018/04/15/test-passwd/"/>
-    <id>https://firebird.top/2018/04/15/test-passwd/</id>
-    <published>2018-04-15T14:13:25.000Z</published>
-    <updated>2018-04-15T14:13:25.844Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
+      <category term="matlab" scheme="https://firebird.top/tags/matlab/"/>
     
   </entry>
   
