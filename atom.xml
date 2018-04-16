@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firebird.top/"/>
-  <updated>2018-04-15T14:13:25.844Z</updated>
+  <updated>2018-04-16T14:24:08.400Z</updated>
   <id>https://firebird.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>matlab_intro</title>
+    <link href="https://firebird.top/2018/04/16/matlab-intro/"/>
+    <id>https://firebird.top/2018/04/16/matlab-intro/</id>
+    <published>2018-04-16T13:42:29.000Z</published>
+    <updated>2018-04-16T14:24:08.400Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-画图"><a class="header-anchor" href="#1-画图">¶</a>1. 画图</h2><h3 id="1-画函曲线：-y-e-t-3-sin2t"><a class="header-anchor" href="#1-画函曲线：-y-e-t-3-sin2t">¶</a>(1) 画函曲线：$y=e^{-t/3}sin2t$</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">t = linspace(0,pi,1e2);                  % 定义变量</span><br><span class="line">y = exp(t/3).*sin(2*t);                  % 相应的y向量</span><br><span class="line">plot(t,y,&apos;-r&apos;,&apos;LineWidth&apos;,2);            </span><br><span class="line">axis(0,4*pi,-1,1);</span><br><span class="line">xlabel(&apos;t&apos;);</span><br><span class="line">ylabel(&apos;y&apos;);</span><br></pre></td></tr></table></figure><h3 id="2-绘制曲线：-y-2-3-e-t-2-cos-frac-sqrt-3-2-t-和它积分-s-t-int-t-0-y-t-mathrm-d-t"><a class="header-anchor" href="#2-绘制曲线：-y-2-3-e-t-2-cos-frac-sqrt-3-2-t-和它积分-s-t-int-t-0-y-t-mathrm-d-t">¶</a>（2） 绘制曲线：$y=2/3 e^{t/2} cos(\frac{\sqrt{3}}{2}t)$ 和它积分$s(t) = \int^{t}_0 y(t)\mathrm{d}t$</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-画图&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-画图&quot;&gt;¶&lt;/a&gt;1. 画图&lt;/h2&gt;
+&lt;h3 id=&quot;1-画函曲线：-y-e-t-3-sin2t&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-画函曲线：-y
+      
+    
+    </summary>
+    
+      <category term="teaching" scheme="https://firebird.top/categories/teaching/"/>
+    
+    
+      <category term="matlab" scheme="https://firebird.top/tags/matlab/"/>
+    
+      <category term="2018春-金材" scheme="https://firebird.top/tags/2018%E6%98%A5-%E9%87%91%E6%9D%90/"/>
+    
+  </entry>
   
   <entry>
     <title>test_passwd</title>
@@ -37,15 +65,16 @@
     <published>2018-04-14T16:29:04.000Z</published>
     <updated>2018-04-15T14:55:10.272Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="0-Test"><a href="#0-Test" class="headerlink" title="0. Test"></a>0. Test</h2><span>$$\begin{aligned}\dot{x} &amp; = \sigma(y-x) \\\dot{y} &amp; = \rho x - y - xz \\\dot{z} &amp; = -\beta z + xy\end{aligned}$$</span><!-- Has MathJax --><script type="math/tex; mode=display">\frac{\partial u}{\partial t}= h^2 \left( \frac{\partial^2 u}{\partial x^2} +\frac{\partial^2 u}{\partial y^2} +\frac{\partial^2 u}{\partial z^2}\right)</script><h2 id="1-Coding"><a href="#1-Coding" class="headerlink" title="1. Coding"></a>1. Coding</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure><h2 id="2-Alerts"><a href="#2-Alerts" class="headerlink" title="2. Alerts"></a>2. Alerts</h2><div class="alert alert-warning"><i class="fa fa-bell  float-left"></i>  <p>Best check yo self, you’re not looking too good.</p></div><div class="alert alert-danger"><i class="fa fa-bug  float-left"></i>  <p>Change a few things up and try submitting again.</p></div><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div><div class="alert alert-info"><i class="fa fa-info  float-left"></i>  <p>This alert needs your attention, but it’s not super important.</p></div><h2 id="2-Label"><a href="#2-Label" class="headerlink" title="2. Label"></a>2. Label</h2><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="3-Text-Color"><a href="#3-Text-Color" class="headerlink" title="3. Text Color"></a>3. Text Color</h2><font color="#00ffff" size="4"> test </font><font color="blue" size="4"> test </font><font color="grey" size="4"> test </font><p class="text-muted"></p><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p></p><h2 id="4-Buttons"><a href="#4-Buttons" class="headerlink" title="4. Buttons"></a>4. Buttons</h2><a class="btn btn-secondary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-primary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-success" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-warning" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-danger" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-info" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a>]]></content>
+    <content type="html"><![CDATA[<h2 id="0-test"><a class="header-anchor" href="#0-test">¶</a>0. Test</h2><span>$$\begin{aligned}\dot{x} &amp; = \sigma(y-x) \\\dot{y} &amp; = \rho x - y - xz \\\dot{z} &amp; = -\beta z + xy\end{aligned}$$</span><!-- Has MathJax --><p>$$\frac{\partial u}{\partial t}<br>= h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p><h2 id="1-coding"><a class="header-anchor" href="#1-coding">¶</a>1. Coding</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&apos;Hello World!&apos;);</span><br></pre></td></tr></table></figure><h2 id="2-alerts"><a class="header-anchor" href="#2-alerts">¶</a>2. Alerts</h2><div class="alert alert-warning"><i class="fa fa-bell  float-left"></i>  <p>Best check yo self, you’re not looking too good.</p></div><div class="alert alert-danger"><i class="fa fa-bug  float-left"></i>  <p>Change a few things up and try submitting again.</p></div><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div><div class="alert alert-info"><i class="fa fa-info  float-left"></i>  <p>This alert needs your attention, but it’s not super important.</p></div><h2 id="2-label"><a class="header-anchor" href="#2-label">¶</a>2. Label</h2><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="3-text-color"><a class="header-anchor" href="#3-text-color">¶</a>3. Text Color</h2><p><font color="#00ffff" size="4"> test </font></p><p><font color="blue" size="4"> test </font></p><p><font color="grey" size="4"> test </font></p><p class="text-muted"></p><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p></p><h2 id="4-buttons"><a class="header-anchor" href="#4-buttons">¶</a>4. Buttons</h2><a class="btn btn-secondary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-primary" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-success" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-warning" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-danger" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a><a class="btn btn-info" href="http://firebird007.top" target="_blank" rel="noopener">firebird</a>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;0-Test&quot;&gt;&lt;a href=&quot;#0-Test&quot; class=&quot;headerlink&quot; title=&quot;0. Test&quot;&gt;&lt;/a&gt;0. Test&lt;/h2&gt;&lt;span&gt;$$\begin{aligned}
+        &lt;h2 id=&quot;0-test&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#0-test&quot;&gt;¶&lt;/a&gt;0. Test&lt;/h2&gt;
+&lt;span&gt;$$\begin{aligned}
 \dot{x} &amp;amp; = \sigma(y-x) \\
-
+\dot{y} &amp;am
       
     
     </summary>
