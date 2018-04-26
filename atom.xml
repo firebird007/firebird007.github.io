@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firebird007.top/"/>
-  <updated>2018-04-26T12:24:25.163Z</updated>
+  <updated>2018-04-26T12:55:06.319Z</updated>
   <id>https://firebird007.top/</id>
   
   <author>
@@ -21,9 +21,17 @@
     <link href="https://firebird007.top/2018/04/26/R-ac-circuit/"/>
     <id>https://firebird007.top/2018/04/26/R-ac-circuit/</id>
     <published>2018-04-26T12:22:04.000Z</published>
-    <updated>2018-04-26T12:24:25.163Z</updated>
+    <updated>2018-04-26T12:55:06.319Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="单一参数的交流电路-电阻原件的交流电路"><a class="header-anchor" href="#单一参数的交流电路-电阻原件的交流电路">¶</a>单一参数的交流电路——电阻原件的交流电路</h2><h3 id="1-ohm-law"><a class="header-anchor" href="#1-ohm-law">¶</a>1. Ohm Law</h3><p>考虑一个交流电压源$u$和电阻$R$串联的电路。<br>两者的关系由欧姆定律确定，即<br>$u=Ri$<br>为了分析方便，取电流$i=I_m sin\omega t$ 为参考正弦量，则<br>$u=Ri=R I_m sin\omega t = U_m sin \omega t$<br>也是同频率同相位的正弦量。上面等式中有$U_m=R I_m$, 则<br>$U = R I$   (有效值形式的Ohm Law)</p><p>下面用相量表示电压和电流的关系。<br>$\dot U = U e<sup>{j0</sup>\circ}$, $\dot I = I e<sup>{j0</sup>\circ}$<br>$\frac{\dot U}{\dot I} = R$<br>或<br>$\dot U = R \dot I$   (向量形式的Ohm Law)</p><h3 id="2-功率"><a class="header-anchor" href="#2-功率">¶</a>2. 功率</h3>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;单一参数的交流电路-电阻原件的交流电路&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#单一参数的交流电路-电阻原件的交流电路&quot;&gt;¶&lt;/a&gt;单一参数的交流电路——电阻原件的交流电路&lt;/h2&gt;
+&lt;h3 id=&quot;1-ohm-law&quot;&gt;&lt;a class
+      
     
     </summary>
     
