@@ -7,9 +7,10 @@
   <meta name="author" content="firebird">
   
   <meta name="description" content="¶单一参数的交流电路: 电感元件的交流电路
-¶1.
-考虑一个交流电压源 $u$ 和电感 $L$ 串联的电路。
-线圈中通过交流电流 $i$ 时，其中产生自感电动势 $e_L$。">
+¶1. 电感元件的欧姆定律  (Ohm Law)
+¶（1） 电感回路的KVL方程
+考虑一个交流(Alternating Current, AC)电压源 $u$ (或表示为$u_{ab}$)和电感 $L$ 串联的电路。
+线圈中通过交流电流 $i$ 时，其中产">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -147,9 +148,42 @@
 	  		
 
 	  <h2 id="单一参数的交流电路-电感元件的交流电路"><a class="header-anchor" href="#单一参数的交流电路-电感元件的交流电路">¶</a>单一参数的交流电路: 电感元件的交流电路</h2>
-<h3 id="1"><a class="header-anchor" href="#1">¶</a>1.</h3>
-<p>考虑一个交流电压源 $u$ 和电感 $L$ 串联的电路。<br>
+<h3 id="1-电感元件的欧姆定律-ohm-law"><a class="header-anchor" href="#1-电感元件的欧姆定律-ohm-law">¶</a>1. 电感元件的欧姆定律  (Ohm Law)</h3>
+<h4 id="1-电感回路的kvl方程"><a class="header-anchor" href="#1-电感回路的kvl方程">¶</a>（1） 电感回路的KVL方程</h4>
+<p>考虑一个交流(Alternating Current, AC)电压源 $u$ (或表示为$u_{ab}$)和电感 $L$ 串联的电路。<br>
 线圈中通过交流电流 $i$ 时，其中产生自感电动势 $e_L$。</p>
+<p>$$\oint \mathbf{E} \cdot d \bm{l} = \int_a^b \mathbf{E}<em>{in} \cdot \mathrm d \bm{l} + \int_b^a \mathbf{E}</em>{out} \cdot \mathrm d \bm{l}$$</p>
+<p>电感线圈内部为导体，不可能存在电场， 故  $\mathbf E_{in} = 0$</p>
+<p>外部电场$\mathbf E_{out}$ 有关系： $u_{ab} = -\int_b^a \mathbf{E}_{out} \cdot \mathrm d \bm{l} = -\oint \mathbf E \cdot \mathrm d \bm{l}$<br>
+对于电感$L$， 电场的环路积分等于此环路面积通过的磁通的变化，故有<br>
+$$e_L \triangleq \oint \mathbf E \cdot \mathrm d \bm{l} = - \frac{\mathrm d \Phi}{\mathrm d t} =  - \frac{\mathrm d (Li)}{\mathrm d t} = - L\frac{\mathrm d i}{\mathrm d t} $$</p>
+<p>最后有，<br>
+$$u_{ab} = -e_L = L\frac{\mathrm d i}{\mathrm d t}$$</p>
+<p>满足KVL： $u_{ab} +e_L = 0$</p>
+<h4 id="2-电感的有效值形式欧姆定律"><a class="header-anchor" href="#2-电感的有效值形式欧姆定律">¶</a>（2） 电感的有效值形式欧姆定律</h4>
+<p>设电流为参考正弦量，即  $i = I_m sim \omega t$，  则<br>
+$$u = L \frac{\mathrm d (I_m sin \omega t)}{\mathrm d t} = \omega L I_m sin(\omega t +90^{\circ}) = U_m sin(\omega t + 90^{\circ})$$<br>
+电感元件交流电路中，在相位上，<strong>电压比电流超前$90^{\circ}$</strong> (或 $\frac{\pi}{2}$)。</p>
+<p>上式中，$U_m = \omega L I_m$,  或<br>
+$ X_L \triangleq  \omega L = 2 \pi f L = \frac{U_m}{I_m} = \frac{U}{I}$    <strong>(感抗$X_L$定义)</strong><br>
+对于直流(Direct Current, DC)，  $X_L=0$  (因为$f=0$)，  电感被视为短路; 对于交流，频率$f \varpropto X_L$，  也就是频率越大， 电感对交流电流的阻碍作用越大， 所以$X_L$被称为感抗。</p>
+<p>$U = X_L I$    <strong>(有效值形式的Ohm Law)</strong></p>
+<h4 id="3-电感的相量形式欧姆定律"><a class="header-anchor" href="#3-电感的相量形式欧姆定律">¶</a>（3） 电感的相量形式欧姆定律</h4>
+<p>如果设电压为参考正弦量：  $u = U_m sin \omega t$</p>
+<p>电流相位滞后电压相位$90^{\circ}$，  则  $i = I_m sin(\omega t -90^{\circ}) = \frac{U_m}{X_L} sin(\omega t -90^{\circ})$</p>
+<p>用相量形式表示电压 $\dot U$ 和电流 $\dot I$ ，<br>
+$\dot U  = U e^{j 0^{\circ}} $，  $\dot I  = I e^{j -90^{\circ}}$<br>
+$\frac{\dot U}{\dot I} = \frac{U}{I} e^{j 90^{\circ}} = j X_L$</p>
+<p>或，<br>
+$\dot U  = j X_L \dot I = j \omega L \dot I$      <strong>(相量形式的Ohm Law)</strong></p>
+<h3 id="2-电感元件在交流电路中的功率计算"><a class="header-anchor" href="#2-电感元件在交流电路中的功率计算">¶</a>2. 电感元件在交流电路中的功率计算</h3>
+<p>电感元件<strong>瞬时功率</strong>：<br>
+$$ p = p_L = ui = U_m I_m sin\omega t sin(\omega t+90^{\circ}) = U_m I_m sin\omega t cos \omega t =  U I sin 2\omega t$$</p>
+<p>电感元件<strong>平均功率</strong> （或有功功率）：<br>
+$$P = \frac{1}{T} \int_0^T p \mathrm d t = \frac{1}{T} \int_0^T UI sin 2\omega t \mathrm d t = 0$$</p>
+<p>电感元件在交流电路中没有能量的消耗，只有电源和电感元件之间能量的互换， 这样的能量交换对电源来讲是一种负担。 用无用功$Q$来衡量这样的能量互换的规模，<br>
+$Q \triangleq  UI = X_L I^2$      (无用功功率$Q$等于瞬时功率$p_L$的幅值)</p>
+<p>无用功功率 $Q$ 单位为： 乏 (var) 或千乏 (kvar) 。</p>
 	  
 	</div>
 
